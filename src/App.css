@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.app{
+  background-color: rgb(218, 167, 29);
+  background-image: url("./iimg/wallpaperflare.com_wallpaper\ \(15\).jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: rgb(10, 10, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  background-color: whitesmoke;
+  width: 300px;
+  border-radius: 10px;
+  padding: 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3), 0 8px 16px rgba(0, 0, 0, .3);
+  opacity: .7;
+  margin-left: -600px;
+  
+  
+}
+.heading-text{
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.amount-card{
+  /* background-color: #130722; */
+  height: 100px;
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-text{
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+.text-fields{
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.input{
+  margin-bottom: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outlined-basic{
+  width: 300px;
+}
+.btn{
+  width: 200px;
+  height: 50px;
+  font-weight: bolder;
 }
